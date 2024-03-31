@@ -1,10 +1,10 @@
 // ignore: file_names
 // ignore_for_file: prefer_const_constructors_in_immutables, library_private_types_in_public_api, prefer_const_constructors
 
-import 'package:fftm_project/ui/registration-page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import './login-page.dart';
+import './registration-page.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
