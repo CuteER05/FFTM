@@ -1,2 +1,11 @@
-// ignore: file_names
-// ignore_for_file: prefer_const_constructors_in_immutables, library_private_types_in_public_api, prefer_const_constructors
+import 'package:flutter/material.dart';
+
+class Registration extends StatelessWidget {
+  const Registration({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(body: Container()),
+    );
+  }
+}
